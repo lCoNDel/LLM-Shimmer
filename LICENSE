@@ -1,14 +1,42 @@
-                    GNU GENERAL PUBLIC LICENSE
+  Copyright © 2024 Luis Conde Blanco
+
+  Este programa se distribuye bajo los términos de la Licencia Pública General de GNU (GNU GPL) versión 3 o posterior, publicada por la Free Software Foundation, con la siguiente cláusula adicional:
+
+### Cláusula Adicional: Restricción de Uso Comercial y Laboral
+El uso de este software está terminantemente **prohibido** en los siguientes casos:
+
+1. **Uso Comercial**: Cualquier uso destinado directa o indirectamente a obtener beneficios económicos, incluidos pero no limitados a:
+   - La venta del software o de productos derivados.
+   - Su integración en servicios o productos con fines comerciales.
+   - Usos relacionados con plataformas monetizadas (como aplicaciones o servicios SaaS).
+
+2. **Fines Laborales**: Cualquier uso del software en un entorno laboral o profesional donde este contribuya a las actividades económicas o de generación de ingresos de una empresa, organización o individuo.
+
+---
+
+### Condiciones Generales
+Este software sigue estando disponible bajo los términos de la Licencia Pública General de GNU versión 3. Esto significa que puedes:
+- Ejecutar el software para uso personal y no comercial.
+- Estudiar y modificar el software para fines educativos o no comerciales.
+- Redistribuir copias del software, siempre que no se realicen con fines comerciales y se mantengan esta cláusula adicional y la licencia original.
+
+Una copia completa de la Licencia Pública General de GNU versión 3 se incluye a continuación.
+
+---
+
+GNU GENERAL PUBLIC LICENSE
+
                        Version 3, 29 June 2007
 
  Copyright (C) 2007 Free Software Foundation, Inc. <https://fsf.org/>
  Everyone is permitted to copy and distribute verbatim copies
  of this license document, but changing it is not allowed.
 
+
                             Preamble
 
-  The GNU General Public License is a free, copyleft license for
-software and other kinds of works.
+    The GNU General Public License is a free, copyleft license for
+  software and other kinds of works.
 
   The licenses for most software and other practical works are designed
 to take away your freedom to share and change the works.  By contrast,

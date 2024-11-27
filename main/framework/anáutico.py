@@ -6,7 +6,7 @@ openai.api_key = os.environ.get('API_IT')  # Variables
 
 def chat_with_gpt(prompt):
     """
-    Función para interactuar con GPT y generar respuestas.
+    Función
     """
     try:
         response = openai.chat.completions.create(

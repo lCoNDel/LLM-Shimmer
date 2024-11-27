@@ -1,6 +1,6 @@
 import openai
 
-# Configura la clave de API (reemplaza esto con tu clave real)
+# Clave API
 openai.api_key = 'API'
 
 def obtener_respuesta(prompt):
@@ -16,7 +16,7 @@ if __name__ == "__main__":
     respuesta = obtener_respuesta(user_input)
     print("Respuesta del asistente:", respuesta)
 
-# Definición del asistente náutico
+# Definición del asistente
 class AsistenteNautico:
     def __init__(self):
         self.nombre = "Touronsito"
@@ -106,7 +106,7 @@ class AsistenteNautico:
 # Instanciar el asistente
 touronsito = AsistenteNautico()
 
-# Obtener información del asistente
+# Obtener información
 perfil = {
     "nombre": touronsito.nombre,
     "descripcion": touronsito.descripcion,
@@ -114,26 +114,27 @@ perfil = {
     "creador": touronsito.creador
 }
 
-# Obtener información de contacto
+# Contacto
 informacion_contacto = touronsito.obtener_informacion_contacto()
 
-# Obtener estilo de comunicación
+# Comunicación
 estilo = touronsito.estilo_comunicacion()
 
-# Obtener marcas autorizadas
+# Marcas Autorizadas
 marcas = touronsito.obtener_marcas_autorizadas()
 
-# Obtener restricciones y filtros
+# Restricciones y Filtros
 restricciones = touronsito.restricciones_y_filtros()
 
-# Mostrar información
+# Print Info
 print("Perfil del Asistente:", perfil)
 print("Información de Contacto:", informacion_contacto)
 print("Estilo de Comunicación:", estilo)
 print("Marcas Autorizadas:", marcas)
 print("Restricciones y Filtros:", restricciones)
 
-# Ejemplo de uso de las nuevas funciones:
+# Ejemplo de uso funciones
+
 # Calcular el consumo de combustible a 30 nudos durante 5 horas
 consumo = touronsito.calcular_consumo_combustible(30, 5)
 print(f"Consumo de combustible estimado: {consumo} litros")

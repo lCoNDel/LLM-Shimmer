@@ -1,0 +1,1 @@
+Marco de ejecución para entornos HTML, JavaScript, etc usando predictabledialogs.

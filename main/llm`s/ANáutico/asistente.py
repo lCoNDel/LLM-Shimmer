@@ -5,7 +5,7 @@ from openai import OpenAI
 
 client = OpenAI(
     api_key=
-    'API'
+    'API_KEY'
 )
 
 # Clase de Presentación del Asistente

@@ -1,13 +1,13 @@
-# Asistente básico
+# Framework Base
 
 import openai
 import os
 
-openai.api_key = os.environ['OPENAI_API_KEY']
+openai.api_key = os.environ['API_IT']
 
 def chat_with_gpt(prompt):
     response = openai.chat.completions.create(
-        model="gpt-4o-mini", # modelo
+        model="gpt-4o-mini", # código open ai para el bot
         messages=[{"role": "user", "content": prompt}]
     )
     return response.choices[0].message.content.strip()
@@ -20,3 +20,4 @@ if __name__ == "__main__":
 
         response = chat_with_gpt(user_input)
         print("Chatbot: ", response)
+

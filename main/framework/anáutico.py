@@ -2,7 +2,7 @@ import openai
 import os
 
 # Configuración de la API de OpenAI
-openai.api_key = os.environ.get('OPENAI_API_KEY')  # Asegúrate de configurar la variable de entorno
+openai.api_key = os.environ.get('API_NAUTICO')  # Asegúrate de configurar la variable de entorno
 
 def chat_with_gpt(prompt):
     """

@@ -7,7 +7,7 @@ openai.api_key = os.environ['OPENAI_API_KEY']
 
 def chat_with_gpt(prompt):
     response = openai.chat.completions.create(
-        model="gpt-4o-mini", # código open ai para el bot
+        model="gpt-4o-mini", # modelo
         messages=[{"role": "user", "content": prompt}]
     )
     return response.choices[0].message.content.strip()

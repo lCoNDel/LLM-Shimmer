@@ -1,7 +1,7 @@
 import openai
 
 # Configura la clave de API (reemplaza esto con tu clave real)
-openai.api_key = 'sk-pkX0CFafyPgcWSKH11RPOJSh0ASfvOnhggQ5cYUvVrT3BlbkFJLr_ndePlnJpYD8kvCjWqDDTnD6Rb7VYVH5WVBid2gA'
+openai.api_key = 'API'
 
 def obtener_respuesta(prompt):
     # Usar el modelo 'gpt-4-turbo'

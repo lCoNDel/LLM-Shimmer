@@ -1,29 +1,23 @@
-  Copyright © 2024 Luis Conde Blanco
+Copyright © 2024 Luis Conde Blanco
 
-  Este repositorio en su totalidad se distribuye bajo los términos de la Licencia Pública General de GNU (GNU GPL) versión 3 o posterior, publicada por la Free Software Foundation, con la siguiente cláusula adicional:
+Este repositorio se distribuye en su totalidad bajo los términos de la Licencia Pública General de GNU (GNU GPL) versión 3 o posterior, publicada por la Free Software Foundation, con la siguiente cláusula adicional:
 
-### Cláusula Adicional: Restricción de Uso Comercial y Laboral
+1. Cláusula Adicional: Restricción de Uso Comercial y Laboral
+1.1. El uso de este software está expresamente prohibido en los siguientes casos:
 
-El uso de este software está terminantemente prohibido en los siguientes casos:
+Uso Comercial: Cualquier utilización que tenga como objetivo directo o indirecto la obtención de beneficios económicos, incluidos, pero no limitados a:
+      - La venta del software o de productos derivados.
+      - Su integración en servicios o productos con fines comerciales.
+      - Usos relacionados con plataformas monetizadas, como aplicaciones o servicios SaaS.
+      - Fines Laborales: Cualquier uso del software en un entorno laboral o profesional en el que contribuya a las actividades económicas o a la generación de ingresos de una empresa.. 
+        organización o individuo, salvo consentimiento expreso del autor.
 
-1. **Uso Comercial**: Cualquier uso destinado directa o indirectamente a obtener beneficios económicos, incluidos pero no limitados a:
-   - La venta del software o de productos derivados.
-   - Su integración en servicios o productos con fines comerciales.
-   - Usos relacionados con plataformas monetizadas (como aplicaciones o servicios SaaS).
-
-2. **Fines Laborales**: Cualquier uso del software en un entorno laboral o profesional donde este contribuya a las actividades económicas o de generación de ingresos de una empresa, organización o individuo 
-                        salvo consentimiento expreso del autor.
----
-
-### Condiciones Generales
+Condiciones Generales:
 
 Este software sigue estando disponible bajo los términos de la Licencia Pública General de GNU versión 3. Esto significa que puedes:
-- Ejecutar el software para uso personal y no comercial.
-- Estudiar y modificar el software para fines educativos o no comerciales.
-- Redistribuir copias del software, siempre que no se realicen con fines comerciales y se mantengan esta cláusula adicional y la siguiente licencia original.
-
+      - Ejecutar el software para uso personal y no comercial.
+      - Estudiar y modificar el software para fines educativos o no comerciales.
 ---
-### Licencia GNU
 
 GNU GENERAL PUBLIC LICENSE
 

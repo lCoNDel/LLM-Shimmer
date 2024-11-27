@@ -1,3 +1,5 @@
-# Omitir Sync
+# Omitir Carpetas
 main/framework/.env
+
+# Omitir Raiz
 .idea/

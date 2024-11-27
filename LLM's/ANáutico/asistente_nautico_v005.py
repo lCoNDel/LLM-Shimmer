@@ -5,7 +5,7 @@ from openai import OpenAI
 
 client = OpenAI(
     api_key=
-    'sk-pkX0CFafyPgcWSKH11RPOJSh0ASfvOnhggQ5cYUvVrT3BlbkFJLr_ndePlnJpYD8kvCjWqDDTnD6Rb7VYVH5WVBid2gA'
+    'API'
 )
 
 # Clase de Presentación del Asistente

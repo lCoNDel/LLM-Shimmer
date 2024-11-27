@@ -2,30 +2,38 @@ import openai
 import os
 
 # Configuración de la API de OpenAI
-openai.api_key = os.environ.get('API_IT')  # Variables
+openai.api_key = os.environ.get(
+    'API_NAUTICO')  # Asegúrate de configurar la variable de entorno
+
 
 def chat_with_gpt(prompt):
     """
-    Función
+    Función para interactuar con GPT y generar respuestas.
     """
     try:
         response = openai.chat.completions.create(
             model="gpt-4o-mini",  # Modelo
-            messages=[
-                {"role": "system", "content": (
-                    "Eres un asistente náutico experto, especializado en navegación marítima, "
-                    "meteorología marina, rutas, consejos de seguridad en el mar y orientación técnica."
-                )},
-                {"role": "user", "content": prompt}
-            ]
-        )
+            messages=[{
+                "role":
+                "system",
+                "content":
+                ("Eres un asistente náutico experto, especializado en navegación marítima,                     "
+                 "meteorología marina, rutas, consejos de seguridad en el mar y                                 orientación técnica."
+                 )
+            }, {
+                "role": "user",
+                "content": prompt
+            }])
         return response.choices[0].message.content.strip()
     except Exception as e:
         return f"Error al procesar tu solicitud: {str(e)}"
 
+
 if __name__ == "__main__":
     print("🌊 Bienvenido al Asistente Náutico 🌊")
-    print("Puedes hacerme consultas sobre navegación, meteorología marina, rutas, y más.")
+    print(
+        "Puedes hacerme consultas sobre navegación, meteorología marina, rutas, y más."
+    )
     print("Escribe 'quit', 'exit' o 'bye' para salir.")
 
     while True:

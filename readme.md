@@ -75,6 +75,11 @@ El dominio de Python es esencial para desarrollar asistentes sólidos. Aquí alg
 - **Python para ciencia de datos y AI (Datacamp)**:  
   [https://www.datacamp.com/](https://www.datacamp.com/)
 
+- **Editores e Interpretes**:  
+  [Pycharm](https://github.com/JetBrains/awesome-pycharm/)
+  
+  [Python IDLE](https://www.python.org/doc/)
+
 ---
 
 ### **5. OpenAI Platform**

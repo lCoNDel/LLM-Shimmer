@@ -1,1 +1,1 @@
-Entornos de ejecución en cloud.
+Framework para entornos HTML, JavaScript, etc.

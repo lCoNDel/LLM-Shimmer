@@ -1,6 +1,0 @@
-# Omitir Carpetas
-main/framework/.env
-main/framework/__pycache__
-
-# Omitir Raiz
-.idea/

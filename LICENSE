@@ -3,6 +3,7 @@ Copyright © 2024 Luis Conde Blanco
 Este repositorio se distribuye en su totalidad bajo los términos de la Licencia Pública General de GNU (GNU GPL) versión 3 o posterior, publicada por la Free Software Foundation, con la siguiente cláusula adicional:
 
 1. Cláusula Adicional: Restricción de Uso Comercial y Laboral
+
 1.1. El uso de este software está expresamente prohibido en los siguientes casos:
 
 Uso Comercial: Cualquier utilización que tenga como objetivo directo o indirecto la obtención de beneficios económicos, incluidos, pero no limitados a:
@@ -17,8 +18,9 @@ Uso Comercial: Cualquier utilización que tenga como objetivo directo o indirect
 Condiciones Generales:
 
 Este software sigue estando disponible bajo los términos de la Licencia Pública General de GNU versión 3. Esto significa que puedes:
+
       - Ejecutar el software para uso personal y no comercial.
-      - Estudiar y modificar el software para fines educativos o no comerciales.
+      - Estudiar y modificar el software para fines educativos.
 ---
 
 GNU GENERAL PUBLIC LICENSE

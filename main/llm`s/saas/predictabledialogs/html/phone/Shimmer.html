@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asistente OpenAI</title>
+    <style>
+        /* Estilos para que el agente se ajuste bien en dispositivos móviles */
+        agent-standard {
+            width: 100%; /* Ancho completo */
+            height: auto; /* Altura automática */
+            min-height: 600px; /* Altura mínima para buena visualización */
+        }
+    </style>
+</head>
+<body>
+    <script type="module">
+        import Agent from 'https://cdn.jsdelivr.net/npm/@agent-embed/js@latest/dist/web.js';
+        Agent.initStandard({
+            agentName: "Assistant OpenAI-7c65d",
+            apiHost: "https://app.predictabledialogs.com/web/incoming",
+            initialPrompt: "Hola!",
+        });
+    </script>
+    <agent-standard></agent-standard>
+</body>
+</html>

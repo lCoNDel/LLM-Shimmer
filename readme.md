@@ -1,4 +1,4 @@
-## **Wiki: Asistentes con GPT**
+## **Wiki: LLM's - Asistentes con GPT**
 
 ### **Introducción**
 La creación de asistentes inteligentes implica integrar modelos avanzados de lenguaje como los proporcionados por OpenAI con herramientas de desarrollo en Python. El enfoque clave de este repositorio es el diseño de prompts efectivos, la recopilación y el uso de las bibliotecas de OpenAI, y la implementación de la lógica en Python para personalizar comportamientos.

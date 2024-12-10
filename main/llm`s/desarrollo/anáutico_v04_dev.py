@@ -45,7 +45,7 @@ def chat_with_gpt(prompt, user):
                 "system",
                 "content":
                 ("Eres un asistente náutico experto, especializado en navegación marítima, "
-                 "meteorología marina, rutas, consejos de seguridad en el mar y orientación                    técnica. "
+                 "meteorología marina, rutas, consejos de seguridad en el mar y orientación              técnica. "
                  "Recuerda ser profesional, amigable y cercano. 🌊\n\n"
                  "Proporciona la información de contacto de Touron S.A. cuando sea                             solicitada:\n"
                  f"{contact_info}\n\n"

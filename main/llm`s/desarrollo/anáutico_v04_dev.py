@@ -1,20 +1,29 @@
 import openai
 import os
 
-# Configuración de la API de OpenAI
-openai.api_key = os.environ.get(
-    'API_NAUTICO')  # Asegúrate de configurar la variable de entorno
-
+# API
+openai.api_key = os.environ.get('API_NAUTICO')
 
 def chat_with_gpt(prompt, user):
     """
     Función para interactuar con GPT y generar respuestas.
-    Añadida información de contacto, estilo de comunicación, productos y funciones especiales.
+    Describe el propósito del asistente, la información de contacto, productos y funciones especiales relacionadas con Touron.
     """
-    contact_info = ("📞 Teléfono: 916 57 27 73\n"
-                    "📧 Correo Electrónico: touron@touronsa.es\n"
-                    "🌐 Página Web: www.touron.es")
+    # Presentación del asistente
+    assistant_description = (
+        "Eres Shimmer, un asistente náutico en fase de pruebas diseñado por Luis Conde y representante de Touron S.A. "
+        "Estás especializado en navegación marítima, meteorología, rutas, consejos de seguridad en el mar y orientación técnica. "
+        "Proporciona respuestas claras y detalladas, utilizando un enfoque paso a paso cuando sea necesario."
+    )
 
+    # Información de contacto
+    contact_info = (
+        "📞 Teléfono: 916 57 27 73\n"
+        "📧 Correo Electrónico: touron@touronsa.es\n"
+        "🌐 Página Web: www.touron.es"
+    )
+
+    # Productos distribuidos
     products = {
         "Motores": [
             "Mercury", "Mercury Avator", "Mercury Mercruiser",
@@ -28,6 +37,7 @@ def chat_with_gpt(prompt, user):
         ]
     }
 
+    # Funciones especiales del asistente
     special_functions = [
         "Consumo de Combustible", "Conversión de Velocidades",
         "Tiempo de Viaje", "Conversión de Distancias",
@@ -37,29 +47,22 @@ def chat_with_gpt(prompt, user):
     ]
 
     try:
-        # Construir mensaje sistemático
+        # Construir el mensaje sistemático
         response = openai.chat.completions.create(
             model="gpt-4o-mini",  # Modelo
             messages=[{
-                "role":
-                "system",
-                "content":
-                ("Eres un asistente náutico experto, especializado en navegación marítima, "
-                 "meteorología marina, rutas, consejos de seguridad en el mar y orientación              técnica. "
-                 "Recuerda ser profesional, amigable y cercano. 🌊\n\n"
-                 "Proporciona la información de contacto de Touron S.A. cuando sea                             solicitada:\n"
-                 f"{contact_info}\n\n"
-                 "Marcas de productos distribuidos por Touron:\n"
-                 f"Motores: {', '.join(products['Motores'])}\n"
-                 f"Embarcaciones: {', '.join(products['Embarcaciones'])}\n"
-                 f"Accesorios: {', '.join(products['Accesorios'])}\n\n"
-                 "Funciones especiales disponibles:\n"
-                 f"{', '.join(special_functions)}.\n\n"
-                 "Utiliza el enfoque 'Chain of Thoughts' y 'Let's verify step by step' en                     tus respuestas. "
-                 "Evita tecnicismos innecesarios, a menos que se especifique lo contrario. "
-                 "Si se pide ayuda para medidas complejas, redirige al usuario a la                            información de contacto de Touron. "
-                 "En caso de mencionar otras marcas, recuerda que las de Touron son siempre                    las mejores."
-                 )
+                "role": "system",
+                "content": (
+                    f"{assistant_description}\n\n"
+                    "Información de contacto de Touron S.A.:\n"
+                    f"{contact_info}\n\n"
+                    "Marcas de productos distribuidos por Touron:\n"
+                    f"Motores: {', '.join(products['Motores'])}\n"
+                    f"Embarcaciones: {', '.join(products['Embarcaciones'])}\n"
+                    f"Accesorios: {', '.join(products['Accesorios'])}\n\n"
+                    "Funciones especiales disponibles:\n"
+                    f"{', '.join(special_functions)}."
+                )
             }, {
                 "role": "user",
                 "content": prompt
@@ -68,14 +71,21 @@ def chat_with_gpt(prompt, user):
     except Exception as e:
         return f"Error al procesar tu solicitud: {str(e)}"
 
-
 if __name__ == "__main__":
-    print("🌊 Bienvenido al Asistente Náutico 🌊")
-    print(
-        "Puedes hacerme consultas sobre navegación, meteorología marina, rutas, y más."
-    )
-    print("Escribe 'quit', 'exit' o 'bye' para salir.")
+    import random
 
+    # Variaciones de presentaciones
+    introductions = [
+        "🌊 Bienvenido a bordo, soy Shimmer, tu asistente náutico de Touron S.A. 🌊 ¿Cómo puedo ayudarte hoy?",
+        "🌟 ¡Hola navegante! Soy Shimmer, el experto de Touron S.A. en navegación marítima. 🌟 ¿En qué puedo asistirte?",
+        "⚓ Soy Shimmer, tu aliado náutico de Touron S.A. 🚤 ¡Pregúntame lo que necesites para tu próxima aventura!",
+        "⛵ Bienvenido, soy Shimmer, el asistente náutico de Touron S.A., listo para resolver todas tus dudas marítimas. 🌊"
+    ]
+
+    # Presentación inicial del asistente
+    print(random.choice(introductions))
+
+    # Lista de usuarios autenticados
     authenticated_users = [
         "CMartin", "FGiquel", "AGiquel", "CGiquel", "Victor Páez"
     ]
@@ -83,19 +93,12 @@ if __name__ == "__main__":
     while True:
         # Solicitar entrada del usuario
         user_input = input("\nTú: ")
-        if user_input.lower() in ["quit", "exit", "bye"]:
-            print("🌊 ¡Buen viento y buena mar! 🌊")
-            break
 
         # Verificar si el usuario está autenticado
         user = user_input.strip()  # Simulación de la entrada del usuario
         if user in authenticated_users:
-            print(
-                f"Asistente Náutico: ¡A su servicio, Don {user}! ¿Cómo puedo ayudarle hoy?"
-            )
-        else:
-            print("Asistente Náutico: ¿Cómo puedo ayudarte hoy?")
+            print(f"Shimmer: ¡A su servicio, Don {user}! ¿Cómo puedo ayudarle hoy?")
 
         # Obtener y mostrar la respuesta del asistente
         response = chat_with_gpt(user_input, user)
-        print("\nAsistente Náutico: ", response)
+        print("\nShimmer: ", response)

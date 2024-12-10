@@ -1,112 +1,64 @@
-## **Wiki: LLM's - Asistentes con GPT**
-
-### **Introducción**
-La creación de asistentes inteligentes implica integrar modelos avanzados de lenguaje como los proporcionados por OpenAI con herramientas de desarrollo en Python. El enfoque clave de este repositorio es el diseño de prompts efectivos, la recopilación y el uso de las bibliotecas de OpenAI, y la implementación de la lógica en Python para personalizar comportamientos.
+## **Wiki: LLM's - Desarrollo Asistentes con GPT**
 
 ---
 
-### **1. Prompt Engineering**
-El diseño de prompts es fundamental para sacar el máximo provecho de los modelos de lenguaje. Aquí algunos recursos útiles:
-
-- **Documentación oficial de OpenAI sobre prompting**:  
-  [https://platform.openai.com/docs/guides/completion/prompt-design](https://platform.openai.com/docs/guides/completion/prompt-design)
-
-- **Guía para escribir buenos prompts**:  
-  [https://www.promptingguide.ai/](https://www.promptingguide.ai/)
-
-- **Ejemplos de prompts avanzados en OpenAI**:  
-  [https://platform.openai.com/examples](https://platform.openai.com/examples)
-
-- **Curso interactivo de prompt engineering** *(gratuito)*:  
-  [https://learnprompting.org/](https://learnprompting.org/)
+## **Introducción**
+Este repositorio proporciona una guía para desarrollar asistentes inteligentes utilizando la API de OpenAI y Python. Aquí encontrarás recursos clave de la documentación oficial de OpenAI, Python, y otros proyectos relevantes en GitHub para integrar funcionalidades avanzadas en tus aplicaciones.
 
 ---
 
-### **2. Uso de Python con OpenAI**
-Python es una herramienta esencial para desarrollar asistentes. Combina la API de OpenAI con bibliotecas adicionales para manejar datos, interfaces o conexiones con servicios externos.
+## **Recursos Principales**
 
-#### Recursos para empezar:
-- **Documentación oficial de la API de OpenAI**:  
-  [https://platform.openai.com/docs](https://platform.openai.com/docs)
+### **1. Documentación de OpenAI**
 
+Para trabajar con los modelos de OpenAI y sus APIs:
+
+- **Documentación oficial de OpenAI**:  
+  [OpenAI Docs](https://platform.openai.com/docs)
+  
 - **Biblioteca OpenAI para Python (openai-python)**:  
-  [https://github.com/openai/openai-python](https://github.com/openai/openai-python)
+  [openai-python GitHub](https://github.com/openai/openai-python)
 
-- **Guía para usar la API de OpenAI con Python**:  
-  [https://platform.openai.com/docs/quickstart](https://platform.openai.com/docs/quickstart)
+- **Guía rápida de la API de OpenAI**:  
+  [Quickstart Guide](https://platform.openai.com/docs/quickstart)
 
----
+### **2. Documentación de Python**
 
-### **3. Integración Avanzada**
-A medida que creces en el desarrollo de asistentes, puedes agregar funcionalidades avanzadas:
-
-#### **a. Conexión con APIs externas**
-Para integrar servicios como calendarios, bases de datos o procesamiento de pagos:
-- **Biblioteca `requests` para llamadas HTTP**:  
-  [https://docs.python-requests.org/](https://docs.python-requests.org/)
-
-- **Integración con FastAPI para crear servidores REST**:  
-  [https://fastapi.tiangolo.com/](https://fastapi.tiangolo.com/)
-
-#### **b. Integración con ChatGPT**
-Para crear asistentes con memoria contextual:
-- **Guía para uso avanzado de ChatGPT**:  
-  [https://platform.openai.com/docs/guides/chat](https://platform.openai.com/docs/guides/chat)
-
-#### **c. Frameworks de asistentes conversacionales**
-Para construir asistentes más completos:
-- **Rasa (framework para NLP y asistentes personalizados)**:  
-  [https://rasa.com/](https://rasa.com/)
-
-- **Microsoft Bot Framework**:  
-  [https://learn.microsoft.com/en-us/azure/bot-service/](https://learn.microsoft.com/en-us/azure/bot-service/)
-
----
-
-### **4. Recursos Generales de Python**
-El dominio de Python es esencial para desarrollar asistentes sólidos. Aquí algunos recursos adicionales:
+Recursos para aprender y dominar Python, el lenguaje de desarrollo para tus asistentes:
 
 - **Documentación oficial de Python**:  
-  [https://docs.python.org/](https://docs.python.org/)
+  [Python Docs](https://docs.python.org/)
+
+- **Biblioteca estándar de Python** (incluyendo librerías como `math`, `datetime`, etc.):  
+  [Python Standard Library](https://docs.python.org/3/library/)
 
 - **Curso gratuito de Python (Automate the Boring Stuff)**:  
-  [https://automatetheboringstuff.com/](https://automatetheboringstuff.com/)
+  [Automate the Boring Stuff](https://automatetheboringstuff.com/)
 
-- **Python para ciencia de datos y AI (Datacamp)**:  
-  [https://www.datacamp.com/](https://www.datacamp.com/)
+- **Pycharm Docs** (para usar PyCharm como tu IDE):  
+  [PyCharm Docs](https://www.jetbrains.com/pycharm/)
 
-- **Editores e Interpretes**:  
-  [Pycharm](https://github.com/JetBrains/awesome-pycharm/)
+---
+
+## **Proyectos y Repositorios Útiles**
+
+### **3. GitHub Repositories**
+
+A continuación, algunos repositorios útiles que puedes integrar en tu proyecto:
+
+- **GitHub Pages**: Repositorio para publicar webs directamente en Github 
+  [GitHub Pages Repo](https://github.com/skills/github-pages)
+
+- **Crawl4AI** (para realizar rastreos web con IA):  
+  [Crawl4AI Repo](https://github.com/unclecode/crawl4ai)
+
+- **Agent Embed** (para integrar agentes conversacionales en aplicaciones web):  
+  [Agent Embed Repo](https://github.com/Predictable-Dialogs/agent-embed)
+
+- **Open Assistant GPT** (para implementar asistentes conversacionales usando OpenAI en cloud):  
+  [Open Assistant GPT Repo](https://github.com/OpenAssistantGPT/OpenAssistantGPT)
   
-  [Python IDLE](https://www.python.org/doc/)
+- **Open AI CookBook** (Códigos de ejemplo y guías):  
+  [Open AI CookBook](https://github.com/openai/openai-cookbook)
 
 ---
-
-### **5. OpenAI Platform**
-La plataforma de OpenAI ofrece herramientas para gestionar proyectos y monitorizar el uso de la API.
-
-#### Recursos:
-- **Página principal de OpenAI**:  
-  [https://openai.com/](https://openai.com/)
-
-- **Panel de usuario para gestionar la API**:  
-  [https://platform.openai.com/overview](https://platform.openai.com/overview)
-
-- **Foros de la comunidad OpenAI**:  
-  [https://community.openai.com/](https://community.openai.com/)
-
----
-
-### **6. Proyectos y Ejemplos**
-- **Repositorio de ejemplos con OpenAI**:  
-  [https://github.com/openai/openai-cookbook](https://github.com/openai/openai-cookbook)
-
-- **Crear un chatbot básico con OpenAI y Flask**:  
-  [Tutorial: Chatbot Flask con OpenAI](https://medium.com/codingthesmartway-com-blog/building-a-chatbot-using-flask-and-openai-api-94cfa2b78e17)
-
----
-
-### **7. Buenas Prácticas**
-- Limitar la cantidad de tokens para optimizar costos y velocidad.
-- Diseñar prompts claros y específicos.
-- Usar logs para rastrear errores y ajustar prompts según el feedback.

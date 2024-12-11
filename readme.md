@@ -1,4 +1,4 @@
-## **Wiki: LLM's - Desarrollo Asistentes con GPT**
+## **Wiki: LLM's - Desarrollo de Asistentes con GPT**
 
 ---
 

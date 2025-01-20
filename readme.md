@@ -3,7 +3,7 @@
 ---
 
 ## **Introducción**
-Este repositorio proporciona una guía para desarrollar asistentes inteligentes utilizando la API de OpenAI y Python. Aquí encontrarás recursos clave de la documentación oficial de OpenAI, Python, y otros proyectos relevantes en GitHub para integrar funcionalidades avanzadas en tus aplicaciones.
+Este repositorio proporciona una guía para desarrollar Llm's y asistentes inteligentes utilizando la API de OpenAI y Python. Aquí encontrarás recursos clave de la documentación oficial de OpenAI, Python, y otros proyectos relevantes en GitHub para integrar funcionalidades avanzadas en tus aplicaciones.
 
 ---
 

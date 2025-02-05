@@ -95,15 +95,6 @@ Nota: Todas las licencias Apache 2.0 y Meta License está disponibles para uso p
 
 ---
 
-## **⚖️ Ética y Buenas Prácticas**  
-*Guía para desarrollo responsable*
-
-### **Checklist Obligatorio**  
-- [ ] Verificar licencia del modelo base  
-- [ ] Implementar filtros de contenido sensible  
-- [ ] Auditoría de sesgos con BiasBench  
-- [ ] Documentar fuentes de entrenamiento  
-
 ### **Recursos Legales**  
 - [Model License Database](https://huggingface.co/spaces/mlaw-ai/llm-license-checker)   
 

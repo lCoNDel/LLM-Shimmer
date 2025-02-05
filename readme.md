@@ -1,4 +1,4 @@
-## **Wiki: Desarrollo de Asistentes con LLMs**  
+## **Wiki: Desarrollo de Asistentes con LLMs**  (Actualizada: 10 de Diciembre 2024)
 *(Guía práctica para aprendizaje y desarrollo con modelos de lenguaje)*  
 
 ---
@@ -106,21 +106,6 @@ Nota: Todas las licencias Apache 2.0 y Meta License está disponibles para uso p
 
 ### **Recursos Legales**  
 - [Model License Database](https://huggingface.co/spaces/mlaw-ai/llm-license-checker)   
-
----
-
-## **📂 Estructura de Proyecto Recomendada**  
-*(Para repositorios GitHub)*  
-```
-/llm-project
-  ├── /notebooks       # Jupyter notebooks educativos
-  ├── /src             # Código de producción
-  │    ├── rag_system  # Componentes RAG
-  │    └── api         # Endpoints FastAPI
-  ├── /docs            # Documentación técnica
-  ├── .github          # CI/CD y templates
-  └── ethical_audit.md # Reporte de cumplimiento
-```
 
 ---
 

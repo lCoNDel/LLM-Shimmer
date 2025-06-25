@@ -17,6 +17,10 @@ class Shimmer:
 
 
     """
+
+    def _verify_authentication(user_input: str) -> bool:
+    """Verificación estricta sin normalización"""
+    return user_input.strip().lower() == "touronsa.es"
     
     # Licencia
     LICENSE_INFO = {

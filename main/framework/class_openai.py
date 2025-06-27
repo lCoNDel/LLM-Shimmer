@@ -3,7 +3,7 @@
 import openai
 import os
 
-openai.api_key = os.environ['API_IT']
+
 
 def chat_with_gpt(prompt):
     response = openai.chat.completions.create(
